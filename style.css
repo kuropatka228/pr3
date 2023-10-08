@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #ececec;
+}
+.menu{ 
+    width: 320px;
+	height: 88px;
+	background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.padding{
+    padding-left: 14px;
+}
+
+.title{
+    padding-top: 5px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.leveling{
+    padding: 10px;
+}
+
+.poloska {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.levelingbypoloska {
+    font-family:  "TT Lakes Regular";
+    color: #7E7E82;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    border-radius: 6px;
+    border: 2px solid #B8FFEC;
+    background: #FFF;
+    padding: 5px 20px;
+}
+
+.text{
+    padding-left: 15px;
+}
+
+.strelka{
+    margin-left: 15px;
+    display: flex;
+}
+
+.levelingbystrelka{
+    margin-left: 15px;
+    margin-top: 0px;
+}
